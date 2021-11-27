@@ -1,0 +1,113 @@
+/* lib */
+.flex {
+    display: flex;
+}
+
+.flex-jc-c {
+    justify-content: center;
+}
+
+.flex-ai-c{
+    align-items: center;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.height-100p{height:100%;}
+
+
+/* cus */
+
+.text-box{
+    margin-bottom: 30px;
+}
+
+.text-box .depth-1 > li{
+    list-style: none;
+}
+
+.text-box .depth-1 > li::before{
+    content: "■";
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.con1 .row1{
+    margin: 50px 0 70px 0;
+}
+
+.con1 .row1 .img-con{
+    margin-bottom: 20px;
+}
+
+.con1 .row1 .img-box:first-child{
+    flex-grow:1;
+}
+.con1 .row1 .img-box:last-child{
+    flex-basis:36%;
+}
+
+.con1 .row2{
+    margin: 50px 0;
+}
+
+
+.con1 .table01{
+  margin: 0 !important;  
+}
+
+.con2 .row1{
+    margin: 50px 0;
+}
+
+.con2 .row1 .text-box .list2{
+    margin-top: 20px;
+}
+.con2 .row1 .text-box .list2 > li {
+    list-style: none;
+    position: relative;
+}
+
+.con2 .row1 .text-box .list2 > li::before{
+    content: "◇";
+    display: inline-block;
+    font-size: 6px;
+    margin-right: 4px;
+    position: absolute;
+    top: 11px;
+    left: -25px;
+    transform: translateY(-50%);
+}
+
+.con2 .row1 .con{
+    margin: 20px 0;
+}
+
+.con2 .row1 .img-box {
+    flex-basis: 70%;
+}
+
+.con3{
+ margin: 50px 0;
+}
+
+.con3 .table{
+    margin: 0;
+}
+
+.con3 .table td{
+    font-size: 12px;
+}
+
+.con3 .row1 .con .col:last-child{
+    flex-basis: 9%;
+}
+
+/* 2-2 */
+.con4 .row1{
+    margin: 50px 0;
+}
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/calendar.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="stylesheet" href="/css/ai_style.css" />
+        <script type="text/javascript" src="/scripts/jquery/dist/jquery.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/smart.css">
+       <script>
+            $(function(){
+                $(".header").load("views/include/header.html");
+                $(".sideMenu").load("views/include/side.html");
+                $(".footer").load("views/include/footer.html");
+            });
+        </script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="header sb-topnav navbar navbar-expand navbar-dark bg-dark"></nav>
+        <div id="layoutSidenav">
+        <div class="sideMenu" id="layoutSidenav_nav"></div>
+            <div id="layoutSidenav_content">              
+                
+                <main>
+                    <div class="container-fluid con3">
+                        <div class="row1">
+                            <div class="text-box">
+                                <ul class="depth-1">
+                                    <li> 수집 기관 소개 
+
+                                        <div class="con flex">
+                                            <div class="col">
+                                                <div class="img-box"> <img src="../img/1-3-1.png" alt=""></div>
+                                                <!-- table -->
+                                                <div class="">
+                                                    <!-- table -->
+                                                    <div class="card-body height-100p">
+                                                        <div class="table-responsive height-100p">
+                                                            <table class="table table01 table-striped height-100p" id="food-table" width="30%" cellspacing="0">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <td scope="col">순서</td>
+                                                                        <td scope="col">컬럼영문명</td>
+                                                                        <td scope="col">컬럼한글명</td>
+                                                                        <td scope="col">데이터타입</td>
+                                                                        <td scope="col">길이</td>
+                                                                        <td scope="col">PK여부</td>
+                                                                        <td scope="col">NOT NULL 여부</td>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <td>1</td>
+                                                                    <td>DataSetType</td>
+                                                                    <td>데이터셋구분</td>
+                                                                    <td>VARCHAR</td>
+                                                                    <td>10</td>
+                                                                    <td>Y</td>
+                                                                    <td>Y</td>
+                                                                </tbody>
+                                                                <tbody>
+                                                                    <td>2</td>
+                                                                    <td>action</td>
+                                                                    <td>액션</td>
+                                                                    <td>VARCHAR</td>
+                                                                    <td>10</td>
+                                                                    <td>N</td>
+                                                                    <td>Y</td>
+                                                                </tbody>
+                                                                <tbody>
+                                                                    <td>3</td>
+                                                                    <td>content_id</td>
+                                                                    <td>식별자</td>
+                                                                    <td>VARCHAR</td>
+                                                                    <td>30</td>
+                                                                    <td>Y</td>
+                                                                    <td>Y</td>
+                                                                </tbody>    
+                                                                <tbody>
+                                                                    <td>3</td>
+                                                                    <td>content_id</td>
+                                                                    <td>식별자</td>
+                                                                    <td>VARCHAR</td>
+                                                                    <td>30</td>
+                                                                    <td>Y</td>
+                                                                    <td>Y</td>
+                                                                </tbody>   
+                                                                <tbody>
+                                                                    <td>3</td>
+                                                                    <td>content_id</td>
+                                                                    <td>식별자</td>
+                                                                    <td>VARCHAR</td>
+                                                                    <td>30</td>
+                                                                    <td>Y</td>
+                                                                    <td>Y</td>
+                                                                </tbody>                                         
+                                                            </table>
+                                                            <ul class="depth-2">
+                                                                <li>연합뉴스
+                                                                    <ul class="depth-3">
+                                                                        <li>스마트치안 빅데이터 센터 구축 데이터 구축 정책수립과 기획 수행</li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="img-box"> <img src="../img/1-3-2.png" alt=""></div>
+                                                <ul class="depth-2">
+                                                    <li>(주)피씨엔(PCN)
+                                                        <ul class="depth-3">
+                                                            <li>스마트치안 빅데이터 센터 시스템 및 유통 플랫폼 구축</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+  
+
+                                    </li>
+                                    <!-- <div class="img-box"> <img src="../img/1-3-2.png" alt=""></div> -->
+                                </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                </main>
+                <footer class="footer py-4 bg-light mt-auto"></footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="../../js/popper.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/datatables-demo.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    </body>
+</html>
