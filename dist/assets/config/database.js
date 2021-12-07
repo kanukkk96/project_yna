@@ -13,8 +13,8 @@ module.exports = {
     },
     connect: function(conn) {
         conn.connect(function(err) {
-            if(err) console.error('mysql connection error : ' + err);
-            else console.log('mysql is connected successfully!');
+            if(err) console.error('mysql 안넣어둠 : ' + err);
+            else console.log('mysql 연결!');
         });
     }
 }
