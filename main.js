@@ -71,7 +71,7 @@ app.use('/page3',page3Router);
 module.exports = app;
 
 var port = 4000;
-var hostname = '192.168.200.171';
+var hostname = '192.168.0.137';
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
